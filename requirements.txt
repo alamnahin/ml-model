@@ -1,0 +1,43 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning Libraries
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+joblib>=1.1.0
+
+# PyTorch for GPU-accelerated MLP (CUDA 12.4+ compatible with CUDA 13.0)
+# Install with: pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4.0
+
+# Additional ML Libraries
+scipy>=1.9.0
+
+# Jupyter Notebook (optional)
+jupyter>=1.0.0
+ipykernel>=6.15.0
+
+# Data Visualization
+plotly>=5.10.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# GPU Support (optional - uncomment if needed)
+# cupy-cuda11x>=11.0.0  # For CUDA 11.x
+# cupy-cuda12x>=12.0.0  # For CUDA 12.x
+
+# Development and Testing (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Memory profiling (optional)
+memory-profiler>=0.60.0
+
+# Configuration management
+python-dotenv>=0.20.0
