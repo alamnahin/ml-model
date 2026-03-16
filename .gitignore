@@ -50,17 +50,20 @@ Ethereum_V3_Transactions.csv
 # ─── Trained model artifacts ──────────────────────────────────────────────────
 *.pkl
 *.joblib
-.joblib
 *.h5
 *.pt
 *.pth
-# XGBoost / LightGBM saved models
-*_final_model.json
-*_final_model.txt
-ethereum_gas_xgboost_model.json
-ethereum_gas_xgboost_optimized_model.json
 
-# ─── Large prediction / CV output CSVs ───────────────────────────────────────
+# ─── Generated CSVs (CV results, feature importance, comparisons) ────────────
+*_cv_results.csv
+*_cv_feature_importance.csv
+*_architecture_summary.csv
+*_comparison_summary.csv
+model_comparison_summary.csv
+model_comparison.csv
+complete_model_comparison.csv
+clean_model_rankings.csv
+weight_importance_comparison.csv
 *_predictions.csv
 *_predictions_sample.csv
 *_cv_predictions.csv
@@ -71,6 +74,9 @@ ethereum_gas_xgboost_optimized_model.json
 *.pdf
 
 # ─── Output directory (auto-generated reports & plots) ────────────────────────
-output/checklist_report.txt
-output/rolling_cv_scores.csv
+output/
 *.joblib
+
+# ─── Saved model files ────────────────────────────────────────────────────────
+*_model.json
+*_model.txt
